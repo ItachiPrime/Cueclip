@@ -286,8 +286,7 @@ section{
 .pricing{
   width:100%;
   height:auto;
-  background-color: #007bff;
-  background-image: linear-gradient(45deg, #007bff 0%, #29e430 100%);
+  background-color: #000000;
 }
 .pricing1{
   font-family:"Poppins", sans-serif;
