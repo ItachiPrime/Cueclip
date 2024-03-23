@@ -316,6 +316,123 @@ section{
   width:40rem;
   height:25rem;
 }
+  
+}
+
+.card-wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border-radius: 2.5rem;
+  box-shadow: 0 5px 14px rgba(0,0 ,0 ,0.25), 0 5px 5px rgba(0,0,0,0.25);
+  padding:2rem;
+  margin:1rem;
+  transition: all 0.2s ease-in;
+}
+.card-wrapper:hover{
+  transform:scale(1.1);
+}
+.card-header{
+  margin:1rem;
+  text-align: center;
+}
+.card-wrapper:hover .card-header> h2{
+  transform:scale(1.1);
+  color:#007bff;
+  letter-spacing: 2;
+}
+.card-header>h2{
+  font-family:"Poppins", sans-serif;
+  font-weight: 600;
+}
+.card-detail{
+  width:100%;
+
+}
+
+.card-detail>p{
+  padding:0.6rem 1.5rem;
+  font-size:1rem;
+  border-bottom:1px solid #d5d5d5;
+}
+
+.check{
+  color:#007bff;
+}
+.nocheck{
+  font-size:1.2rem;
+  color:#ec615b;
+}
+.wrap{
+  margin:0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  padding:2rem;
+  margin:1rem;
+  justify-content: center;
+}
+.signup-button {
+  font-weight: 500;
+  background-color: #007bff;
+  color:#ffff;
+  font-size: 14px;
+  padding:5px 10px;
+  border-radius:11px;
+  text-decoration: none;
+  transition:0.3s background-color;
+}
+.signup-button:hover{
+  background-color: #238dff;
+}
+.navbar-brand{
+  font-weight: 700;
+  color:#007bff;
+  font-size: 24px;
+  transition: 0.3s color;
+}
+
+.navbar-toggler{
+  border: none;
+  font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+  box-shadow: none;
+  outline:none
+}
+
+.nav-link{
+  color:#666777;
+  font-weight: 500;
+  position: relative;
+}
+
+@media (min-width: 991px){
+.nav-link::before{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:100%;
+  height:2px;
+  background-color:#009970 ;
+  visibility:hidden;
+  transition:0.3s ease-in-out;
+}
+
+.nav-link:hover:before,.nav-link.active::before{
+  width:100%;
+  visibility:visible;
+
+}
+}
+
+.img{
+  width:2rem;
+}
+
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
   .card-detail>p{
@@ -561,119 +678,4 @@ section{
   .f1{
     width:12rem;
    }
-  
-}
-
-.card-wrapper{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffff;
-  border-radius: 2.5rem;
-  box-shadow: 0 5px 14px rgba(0,0 ,0 ,0.25), 0 5px 5px rgba(0,0,0,0.25);
-  padding:2rem;
-  margin:1rem;
-  transition: all 0.2s ease-in;
-}
-.card-wrapper:hover{
-  transform:scale(1.1);
-}
-.card-header{
-  margin:1rem;
-  text-align: center;
-}
-.card-wrapper:hover .card-header> h2{
-  transform:scale(1.1);
-  color:#007bff;
-  letter-spacing: 2;
-}
-.card-header>h2{
-  font-family:"Poppins", sans-serif;
-  font-weight: 600;
-}
-.card-detail{
-  width:100%;
-
-}
-
-.card-detail>p{
-  padding:0.6rem 1.5rem;
-  font-size:1rem;
-  border-bottom:1px solid #d5d5d5;
-}
-
-.check{
-  color:#007bff;
-}
-.nocheck{
-  font-size:1.2rem;
-  color:#ec615b;
-}
-.wrap{
-  margin:0 auto;
-  display:flex;
-  flex-wrap: wrap;
-  padding:2rem;
-  margin:1rem;
-  justify-content: center;
-}
-.signup-button {
-  font-weight: 500;
-  background-color: #007bff;
-  color:#ffff;
-  font-size: 14px;
-  padding:5px 10px;
-  border-radius:11px;
-  text-decoration: none;
-  transition:0.3s background-color;
-}
-.signup-button:hover{
-  background-color: #238dff;
-}
-.navbar-brand{
-  font-weight: 700;
-  color:#007bff;
-  font-size: 24px;
-  transition: 0.3s color;
-}
-
-.navbar-toggler{
-  border: none;
-  font-size: 1.25rem;
-}
-.navbar-toggler:focus, .btn-close:focus{
-  box-shadow: none;
-  outline:none
-}
-
-.nav-link{
-  color:#666777;
-  font-weight: 500;
-  position: relative;
-}
-
-@media (min-width: 991px){
-.nav-link::before{
-  content:"";
-  position:absolute;
-  bottom:0;
-  left:50%;
-  transform:translateX(-50%);
-  width:100%;
-  height:2px;
-  background-color:#009970 ;
-  visibility:hidden;
-  transition:0.3s ease-in-out;
-}
-
-.nav-link:hover:before,.nav-link.active::before{
-  width:100%;
-  visibility:visible;
-
-}
-}
-
-.img{
-  width:2rem;
 }
