@@ -8,7 +8,20 @@ nav{
   display:flex;
   align-items: center;
 }
-
+.fixed-top{
+  border-radius: 0px;
+}
+.distyle{
+  gap:20rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  display:flex;
+  align-items: center;
+}
+.video-container{
+  border-radius: 15px;
+}
 .logo{
   padding-right: 8.0vw;
   width:8vw;
@@ -176,7 +189,7 @@ section{
   border-radius: 10px;
   padding:0rem 1.2rem;
   width:19rem;
-  margin:4rem 0rem 2rem 4rem;
+  margin:2rem 0rem 2rem 0rem;
   background-color: black;
   display: flex;
   align-items: center;
@@ -206,7 +219,7 @@ section{
   border-radius: 10px;
   padding:0rem 1.2rem;
   width:19rem;
-  margin:2rem 0rem 2rem 4rem;
+  margin:2rem 0rem 2rem 0rem;
   background-color: black;
   display: flex;
   align-items: center;
@@ -220,7 +233,7 @@ section{
   border-radius: 10px;
   padding:0rem 1.2rem;
   width:19rem;
-  margin:2rem 0rem 2rem 4rem;
+  margin:2rem 0rem 2rem 0rem;
   background-color: black;
   display: flex;
   align-items: center;
@@ -234,7 +247,7 @@ section{
   border-radius: 10px;
   padding:0rem 1.2rem;
   width:19rem;
-  margin:2rem 0rem 2rem 4rem;
+  margin:2rem 0rem 2rem 0rem;
   background-color: black;
   display: flex;
   align-items: center;
@@ -248,7 +261,7 @@ section{
   border-radius: 10px;
   padding:0rem 1.2rem;
   width:19rem;
-  margin:2rem 0rem 2rem 4rem;
+  margin:2rem 0rem 2rem 0rem;
   background-color: black;
   display: flex;
   align-items: center;
@@ -281,9 +294,44 @@ section{
 }
 .hiro{
   display:flex;
+  flex-wrap: wrap;
+}
+.video{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:580;
+  height:335;
 }
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
+  .distyle{
+    gap:2px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    display:flex;
+    align-items: center;
+  }
+  .video{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .video-container{
+    border-radius: 15px;
+  }
+  .heroimage{
+    padding-left: 3rem;
+    margin:0 auto;
+    width:22rem;
+    padding-top:2rem;
+  }
+   .himage{
+    margin: 0 auto;
+    width:100vw;
+  }
   .hero{
     width:100vw;
   }
@@ -363,9 +411,6 @@ section{
     font-weight: 700;
     font-size: 2.4rem;
     font-family: 'Roboto', sans-serif;
-  }
-   .himage{
-    display:none;
   }
   .h1{
     width:100%;
@@ -553,7 +598,7 @@ section{
 }
 .signup-button {
   font-weight: 500;
-  background-color: #009970;
+  background-color: #007bff;
   color:#ffff;
   font-size: 14px;
   padding:5px 10px;
@@ -562,11 +607,11 @@ section{
   transition:0.3s background-color;
 }
 .signup-button:hover{
-  background-color: #00b383;
+  background-color: #238dff;
 }
 .navbar-brand{
   font-weight: 700;
-  color:#009970;
+  color:#007bff;
   font-size: 24px;
   transition: 0.3s color;
 }
