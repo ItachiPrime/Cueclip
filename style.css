@@ -319,8 +319,8 @@ section{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:20rem;
-  height:8rem;
+  width:16rem;
+  height:10rem;
 }
   .video-container{
     border-radius: 15px;
