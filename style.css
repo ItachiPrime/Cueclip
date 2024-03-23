@@ -320,7 +320,7 @@ section{
   /* Styles for mobile browsers */
   .card-detail>p{
   padding:0.6rem 1.5rem;
-  font-size:0.6rem;
+  font-size:0.5rem;
   border-bottom:1px solid #d5d5d5;
 }
   .distyle{
