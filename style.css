@@ -301,8 +301,8 @@ section{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:50vw;
-  height:29vw;
+  width:40rem;
+  height:20rem;
 }
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
