@@ -297,7 +297,7 @@ section{
 .card-button{
   font-family:"Poppins", sans-serif;
   font-weight: 500;
-  background-color: #5222d0;
+  background-color: #007bff;
   color:white;
   border-radius: 12px;
 }
@@ -577,7 +577,7 @@ section{
 }
 .card-wrapper:hover .card-header> h2{
   transform:scale(1.1);
-  color:#5222d0;
+  color:#007bff;
   letter-spacing: 2;
 }
 .card-header>h2{
@@ -596,7 +596,7 @@ section{
 }
 
 .check{
-  color:#5222d0;
+  color:#007bff;
 }
 .nocheck{
   color:#ec615b;
