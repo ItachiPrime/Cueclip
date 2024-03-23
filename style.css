@@ -309,7 +309,7 @@ section{
   .distyle{
     gap:2px;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: center;e
     flex-wrap: wrap;
     display:flex;
     align-items: center;
@@ -319,8 +319,8 @@ section{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:16rem;
-  height:10rem;
+  width:18rem;
+  height:12rem;
 }
   .video-container{
     border-radius: 15px;
