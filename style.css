@@ -298,6 +298,7 @@ section{
   padding:0rem 2rem;
 }
 .card-button{
+  padding: 0.2rem 0.4rem;
   font-family:"Poppins", sans-serif;
   font-weight: 500;
   background-color: #007bff;
