@@ -435,7 +435,7 @@ section{
   /* Styles for mobile browsers */
   .card-detail>p{
   padding:0.6rem 1.5rem;
-  font-size:0.5rem;
+  font-size:0.8rem;
   border-bottom:1px solid #d5d5d5;
 }
   .distyle{
@@ -676,4 +676,8 @@ section{
   .f1{
     width:12rem;
    }
+  .nocheck{
+  font-size:0.6rem;
+  color:#ec615b;
+}
 }
