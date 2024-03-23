@@ -13,6 +13,9 @@ nav{
   display:flex;
   align-items: center;
 }
+b{
+font-size:2rem;
+}
 .fixed-top{
   border-radius: 0px;
 }
