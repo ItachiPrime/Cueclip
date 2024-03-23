@@ -298,6 +298,9 @@ section{
   border-radius: 12px;
 }
 .hiro{
+  align-content:center;
+  align-items:center;
+  justify-content:center;
   display:flex;
   flex-wrap: wrap;
 }
