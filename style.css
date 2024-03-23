@@ -319,7 +319,7 @@ section{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:19rem;
+  width:20rem;
   height:12rem;
 }
   .video-container{
@@ -397,6 +397,7 @@ section{
     width:90vw;
     margin:0 auto;
     text-align: center;
+    margin-bottom:2rem;
    }
   .subheading4{
     width:90vw;
