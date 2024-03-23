@@ -13,6 +13,10 @@ nav{
   display:flex;
   align-items: center;
 }
+.det{
+  font-size:1.2rem;
+}
+
 b{
 font-size:2rem;
 }
