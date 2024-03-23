@@ -315,11 +315,13 @@ section{
     align-items: center;
   }
   .video{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
+  border-radius:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:20rem;
+  height:8rem;
+}
   .video-container{
     border-radius: 15px;
   }
