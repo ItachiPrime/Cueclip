@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+  .content {
+    width: 100%; /* Set width to 100% for smaller screens */
+  }
+}
 body{
   overflow-x: hidden;
 }
