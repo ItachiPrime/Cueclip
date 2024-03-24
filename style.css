@@ -24,6 +24,7 @@ footer{
     text-align: center;
 }
 .footer-content h3{
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color:#007bff;
