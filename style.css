@@ -6,6 +6,76 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.Joinnow{
+    background-color: white;
+}
+.jn{
+    height:28.8rem;
+    margin:3rem auto;
+    width:92vw;
+    border-radius: 10px;
+    background-color: rgb(206, 205, 205);
+}
+.jtext{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.jnlogo{
+    margin:0 auto;
+}
+.img2{
+    padding-top: 4rem;
+    display:flex;
+    margin: 0 auto;
+    width:8rem;
+}
+.email{
+    outline: none;
+    width:20rem;
+    padding:0.6rem 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5rem;
+    display:flex;
+    margin:1rem auto;
+    border-radius: 1.2rem;
+    border: none;
+}
+.name{
+    outline: none;
+    box-decoration-break: none;
+    width:20rem;
+    padding:0.6rem 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    margin:1rem auto;
+    border-radius: 1.2rem;
+    border: none;
+}
+.submit{
+    text-align: center;
+    font-weight: 600;
+    padding:0.6rem 1rem;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    margin:1rem auto;
+    border-radius: 1rem;
+    border: none;
+    transition:0.4s ease-in-out;
+}
+.submit:hover{
+    color:white;
+    background-color:#007bff;
+    transform: scale(1.1);
+}
+form1{
+    margin-bottom: 5rem;
+}
 footer{
     bottom: 0;
     left: 0;
