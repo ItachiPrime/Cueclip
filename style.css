@@ -12,7 +12,6 @@ footer{
     right: 0;
     background: #000000;
     height: auto;
-    width: 100vw;
     font-family: "Open Sans";
     padding-top: 40px;
     color: #fff;
@@ -61,7 +60,6 @@ footer{
 
 .footer-bottom{
     background: #000;
-    width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
