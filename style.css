@@ -81,9 +81,10 @@ form{
   margin: 0 10px;
 }
 .socials a{
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: #fff;
+  font-color:#007bff;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #fff;
 }
 .socials a:hover i{
     color: aqua;
