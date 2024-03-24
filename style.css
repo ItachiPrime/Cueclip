@@ -45,7 +45,7 @@ footer{
     height: auto;
     font-family: "Open Sans";
     padding-top: 40px;
-    color:black;
+    background-color:black;
 }
 .footer{
     bottom: 0;
@@ -69,7 +69,6 @@ footer{
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  color:black;
   text-transform: capitalize;
   line-height: 3rem;
 }
