@@ -424,6 +424,7 @@ section{
   transform:scale(1.1);
 }
 .pricing{
+  padding-bottom:4rem;
   width:100%;
   height:auto;
   background-color: #000000;
