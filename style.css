@@ -48,14 +48,15 @@ footer{
     background-color:black;
 }
 .footer{
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #ffff;
-    height: auto;
-    font-family: "Open Sans";
-    padding-top: 40px;
-    color: #fff;
+  padding-bottom:2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffff;
+  height: auto;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
 }
 .footer-content{
     display: flex;
