@@ -65,7 +65,7 @@ footer{
     flex-direction: column;
     text-align: center;
 }
-.footer-content1 h3{
+.footer-content h3{
   color:#007bff;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
@@ -73,7 +73,7 @@ footer{
   text-transform: capitalize;
   line-height: 3rem;
 }
-.footer-content h3{
+.footer-content1 h3{
   color:#007bff;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
