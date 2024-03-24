@@ -69,10 +69,45 @@ form{
   line-height: 28px;
   font-size: 14px;
 }
+.socials{
+  padding-left:0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 .img1{
     width:8rem;
 }
+
 
 nav{
   border-radius: 1.5vw;
