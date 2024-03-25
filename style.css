@@ -569,18 +569,28 @@ section{
 
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
+.footer-content1{
+  border-radius:2rem;
+  background-color:#ededed;
+  padding:2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
   .email{
   background-color:white;
-  padding:0.4rem 0.6rem 0.4rem 0.6rem;
+  padding:0.4rem 1rem 0.4rem 1rem;
   border: none;
-  width:16rem;
+  width:18rem;
   border-radius: 0.8rem;
 }
 .name{
   background-color:white;
-  padding:0.4rem 0.6rem 0.4rem 0.6rem;
+  padding:0.4rem 1rem 0.4rem 1rem;
   border: none;
-  width:16rem;
+  width:18rem;
   border-radius: 0.8rem;
 }
   .img1{
