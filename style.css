@@ -31,7 +31,7 @@ form{
 .jbutton{
     border:4px solid #007bff;
     margin:0 auto;
-    width:6rem;e
+    width:6rem;
     border-radius: 0.8rem;
     transition: 0.3s ease-in-out;
 }
@@ -571,6 +571,13 @@ section{
 
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
+  .jbutton{
+    border:4px solid #007bff;
+    margin:0 auto;
+    width:6rem;
+    border-radius: 0.8rem;
+    transition: 0.3s ease-in-out;
+}
   .footer{
   display:flex;
   justify-content:center;
