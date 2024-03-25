@@ -571,6 +571,14 @@ section{
 
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
+  .socials{
+  padding-left:0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.6rem 0 0.6rem 0;
+}
   footer{
     bottom: 0;
     left: 0;
