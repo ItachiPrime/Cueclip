@@ -13,6 +13,7 @@ form{
     gap:1rem;
 }
 .email{
+  outline:none;
   background-color:white;
   padding:0.4rem 1rem 0.4rem 1rem;
   border: none;
@@ -20,6 +21,7 @@ form{
   border-radius: 0.8rem;
 }
 .name{
+  outline:none;
   background-color:white;
   padding:0.4rem 1rem 0.4rem 1rem;
   border: none;
@@ -593,7 +595,8 @@ section{
   flex-direction: column;
   text-align: center;
 }
-  .email{
+.email{
+  outline:none;
   background-color:white;
   padding:0.4rem 1rem 0.4rem 1rem;
   border: none;
@@ -601,6 +604,7 @@ section{
   border-radius: 0.8rem;
 }
 .name{
+  outline:none;
   background-color:white;
   padding:0.4rem 1rem 0.4rem 1rem;
   border: none;
