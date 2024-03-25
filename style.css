@@ -128,9 +128,10 @@ footer{
     text-align: center;
 }
 .footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+  color:#606060;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
 }
 .footer-bottom span{
     text-transform: uppercase;
