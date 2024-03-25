@@ -569,6 +569,9 @@ section{
 
 @media only screen and (max-width: 768px) {
   /* Styles for mobile browsers */
+  .img1{
+    width:6rem;
+}
   .card-detail>p{
   padding:0.2rem 1rem;
   font-size:0.8rem;
