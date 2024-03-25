@@ -48,6 +48,9 @@ footer{
     background-color:black;
 }
 .footer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   padding-bottom:3rem;
   bottom: 0;
   left: 0;
@@ -66,11 +69,12 @@ footer{
     text-align: center;
 }
 .footer-content1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  padding:2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .footer-content h3{
   color:#007bff;
