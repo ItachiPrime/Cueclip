@@ -31,16 +31,16 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" aria-current="page" href="#hero" id="smooth1">Home</a>
+                <a class="nav-link mx-lg-2" aria-current="page" href="#hero" onclick="handleClick('hero')">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="#features" id="smooth2">Features</a>
+                <a class="nav-link mx-lg-2" href="#features" onclick="handleClick('features')">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="#pricing" id="pricing-button" id="smooth3">Pricing</a>
+                <a class="nav-link mx-lg-2" href="#pricing" id="pricing-button" onclick="handleClick('pricing')">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="#footer" id="smooth4">About Us</a>
+                <a class="nav-link mx-lg-2" href="#footer" onclick="handleClick('footer')">About Us</a>
               </li>
             </ul>
           </div>
@@ -224,8 +224,8 @@
     </footer>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script>
-function smoothScroll(targetId) {
+  <script>
+  function smoothScroll(targetId) {
   const element = document.getElementById(targetId);
   if (element) {
     const elementPosition = element.offsetTop;
@@ -236,12 +236,9 @@ function smoothScroll(targetId) {
   }
 }
 
-// Add event listeners to navbar links with unique IDs
-  document.getElementById('smooth1').addEventListener('click', () => smoothScroll('smooth1'));
-  document.getElementById('smooth2').addEventListener('click', () => smoothScroll('smooth2'));
-  document.getElementById('smooth3').addEventListener('click', () => smoothScroll('smooth3'));
-  document.getElementById('smooth4').addEventListener('click', () => smoothScroll('smooth4'));
-  document.getElementById('smooth5').addEventListener('click', () => smoothScroll('smooth5'));
+function handleClick(targetId) {
+  smoothScroll(targetId);
+}
 </script>
 </body>
   </html>
