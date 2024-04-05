@@ -74,7 +74,7 @@ footer{
     text-align: center;
 }
 .footer-content1{
-  border-radius:2rem;
+  border-radius:1rem;
   background-color:#ededed;
   padding:2rem 30rem;
   display: flex;
@@ -327,9 +327,9 @@ section{
   margin-bottom: 1rem;
 }
 .h5{
-  color: white;
+  color:black;
   width:80rem;
-  margin:10rem auto 2rem auto;
+  margin:14rem auto 2rem auto;
   padding:4rem 2rem;
   font-weight: 700;
   font-size: 4rem;
@@ -427,7 +427,6 @@ section{
   padding-bottom:4rem;
   width:100%;
   height:auto;
-  background-color: #000000;
 }
 .pricing1{
   font-family:"Poppins", sans-serif;
@@ -619,7 +618,7 @@ section{
   color: #fff;
 }
 .footer-content1{
-  border-radius:2rem;
+  border-radius:1rem;
   background-color:#ededed;
   padding:2rem 2rem;
   display: flex;
@@ -688,7 +687,7 @@ section{
     width:100vw;
   }
   .h5{
-    color: white;
+    color: black;
     width:90vw;
     margin:2rem auto 2rem auto;
     font-weight: 700;
