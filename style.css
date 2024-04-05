@@ -43,8 +43,6 @@ form{
   transition: 0.3s ease-in-out;
 }
 .jbutton:hover{
-    color:white;
-    background-color: #007bff;
     transform:scale(1.1)
 }
 footer{
